@@ -6,8 +6,6 @@ from middlewares.error_handler import ErrorHandler
 from routers.game_router import game_router
 from routers.user_router import user_router
 
-
-
 app = FastAPI()
 app.title = "GamesHub"
 app.version = "1.5.0"
